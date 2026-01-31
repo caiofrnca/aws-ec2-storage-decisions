@@ -12,7 +12,7 @@ This build focuses on:
 
 All tasks are implemented and verified using the AWS CLI to reinforce repeatability and automation-oriented workflows.
 
----
+--
 
 #### What was built / results
 
@@ -49,7 +49,7 @@ All tasks are implemented and verified using the AWS CLI to reinforce repeatabil
   - cost model
   - best-fit use cases
 
----
+--
 
 #### Repository Structure
 
