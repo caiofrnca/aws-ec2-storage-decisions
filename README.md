@@ -27,6 +27,7 @@ All tasks are implemented and verified using the AWS CLI to reinforce repeatabil
 - Detach and reattach (persistence validation)
 
 #### 2 - Snapshots and Restore
+-> how EBS snapshots can be used to back up data and restore it to a new volume, validating durability and recovery workflows.
 - Create an EBS snapshot
 - Restore a new volume from snapshot
 - Validate data persistence after restore
@@ -45,6 +46,7 @@ All tasks are implemented and verified using the AWS CLI to reinforce repeatabil
 - Document common misuses and when EFS is not appropriate
 
 #### 5 - Storage Comparison (Decision Table)
+-> Summarize and compare EC2 storage options to demonstrate clear, defensible architectural decision-making.
 - Compare **EBS vs EFS vs Instance Store** across:
   - durability
   - performance characteristics
