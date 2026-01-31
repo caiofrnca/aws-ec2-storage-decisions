@@ -14,7 +14,7 @@ All tasks are implemented and verified using the AWS CLI to reinforce repeatabil
 
 --
 
-#### What was built / results
+#### What was learned/built:
 
 - Choose the correct storage option based on **state, durability, performance, and cost**
 - Understand persistence and recovery using **EBS snapshots**
@@ -32,6 +32,8 @@ All tasks are implemented and verified using the AWS CLI to reinforce repeatabil
 - Validate data persistence after restore
 
 #### 3 - AMI and Immutable Infrastructure
+-> Demonstrating the immutable infrastructure pattern.
+
 - Create an AMI from an EC2 instance
 - Launch a new instance from the AMI
 - Explain how AMIs support immutable infrastructure patterns
@@ -54,8 +56,8 @@ All tasks are implemented and verified using the AWS CLI to reinforce repeatabil
 #### Repository Structure
 
 ```bash
-├── cli-commands/         # Commands executed for each task
-├── docs/                 # Design decisions and trade-off explanations
-├── policy-examples/      # Policy artifacts (only if used by CLI)
+├── cli-commands/         -> Commands executed for each task
+├── docs/                 -> Design decisions and trade-off explanations
+├── policy-examples/      -> Policy artifacts (only if used by CLI)
 └── evidences/            # Optional supporting artifacts (redacted if needed)
 ```
