@@ -26,10 +26,10 @@ sudo systemctl stop httpd
 ```bash
 $AMI_ID = aws ec2 create-image --instance-id <INSTANCE_ID> --name "build3-immutable-ami" --description "Build 3 - AMI for immutable infrastructure demo" --no-reboot --query ImageId --output text
 
+# the " --no-reboot" avoids downtime for this lab, but for production, is safer for data consistency to reboot.
+
 $AMI_ID
 ```
--> the " --no-reboot" avoids downtime for this lab, but for production, is safer for data consistency to reboot.
-
 
 3 - Launch a New EC2 Instance from the AMI
 -> proves immutability: new instance, same configuration.

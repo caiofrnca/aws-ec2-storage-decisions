@@ -56,8 +56,7 @@ All tasks are implemented and verified using the AWS CLI to reinforce repeatabil
 #### Repository Structure
 
 ```bash
-├── cli-commands/         -> Commands executed for each task
-├── docs/                 -> Design decisions and trade-off explanations
-├── policy-examples/      -> Policy artifacts (only if used by CLI)
-└── evidences/            # Optional supporting artifacts (redacted if needed)
+├── cli-commands/         # Commands executed for each task
+├── docs/                 # Design decisions and trade-off explanations
+└── evidences/            # Optional supporting artifacts/screenshots 
 ```
